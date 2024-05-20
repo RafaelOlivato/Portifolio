@@ -1,0 +1,74 @@
+.barra__conhecimento{
+    display: flex;
+    gap: 10em ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10em 0;
+}
+
+.barra-container{
+    background-color: grey;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.barra__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.barra__titulo{
+    display: flex;
+    gap: 5px;
+}
+
+.carregamento{
+    background-color: var(--roxo);
+    height: 20px;
+    border-radius: 10px;
+}
+
+.html{
+    width: var(--html);
+}
+.css{
+    width: var(--css);
+}
+.java{
+    width: var(--java);
+}
+.php{
+    width: var(--php);
+}
+.wordpress{
+    width: var(--wordpress);
+}
+.react{
+    width: var(--react);
+}
+.python{
+    width: var(--python);
+}
+.angular{
+    width: var(--angular);
+}
+.edicao{
+    width: var(--edicao);
+}
+.photoshop{
+    width: var(--photoshop);
+}
+
+.final{
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width:450px){
+    .conhecimento{
+        margin-top: 3em;
+        width: 90%;
+    }
+}

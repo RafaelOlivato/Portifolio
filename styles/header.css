@@ -1,0 +1,25 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--roxo);
+}
+
+.logo{
+    width: 15%;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width:1650px){
+    .cabecalho{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (max-width:450px){
+   
+   .logo{
+        width: 50%;
+        margin-bottom: 0.2em;
+   }
+}
